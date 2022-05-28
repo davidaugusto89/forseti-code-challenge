@@ -14,6 +14,8 @@ E quando falamos em licitações, o portal Comprasnet é a grande referência na
 
 > Git
 
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white) ![HTML 5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
 ## Guia de Instalação
 
 O banco de dados deve ser criado localmente, com as seguintes configurações:
@@ -35,16 +37,33 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate
 ```
-## Guia para Acessar o Sistema
+## Guia para Testes
 
 Para inciar o servidor após instalar, execute o comando:
 
 ```sh
 php artisan serve
 ```
+### Página Inicial (Home)
+Nesta página são listadas as últimas 5 notícias importadas para o banco de dados.
 
 URL para acesso:
 
 ```sh
 http://127.0.0.1:8000/noticias
 ```
+
+### Página Importar Notícias
+Nesta página são importadas as notícias para o banco de dados, mostrando: 
+- Total de Notícias => quantidade total de notícias encontradas
+- Novas Notícias => quantidade total de notícias que foram importadas no banco de dados
+- Notícias Já Cadastradas => quantidade total de notícias que já estão cadastradas no banco de dados*
+
+* Sistema evita o cadastro duplicado de notícias no banco de dados.
+
+URL para acesso:
+
+```sh
+http://127.0.0.1:8000/noticias/importar
+```
+

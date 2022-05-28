@@ -48,7 +48,7 @@
           </a>
 
           <div class="col-lg-5 col-12 text-right" id="link_topo">
-          <a href="{{ route('noticias.index') }}" class="text-white mr-3">Início</a>
+          <a href="{{ route('noticias.index') }}" class="text-white mr-3">Home</a>
             <a href="{{ route('noticias.importar') }}" class="text-white mr-3">Importar Notícias</a>
           </div>
         </div>
