@@ -1,10 +1,12 @@
-# Sistema de Notícias
+# CODE CHALLENGE - FORSETI
 
-Sistema de notícias em PHP com cadastro de notícias, listagem e busca.
+Um dos processos mais repetitivos para a nossa equipe - e que gera grande valor à empresa - é manter nossos clientes informados das noticias do mundo das licitações.
+
+E quando falamos em licitações, o portal Comprasnet é a grande referência na captura de oportunidades e notícias usada em nossas plataformas.
 
 ## Requisitos básicos
 
-> PHP >= 7.3
+> PHP >= 7.4
 
 > MySQL
 
@@ -26,10 +28,19 @@ Nome do banco de dados = 'forseti-code-challenge'
 Para instalar a aplicação deve ser executados os seguintes comandos no terminal.
 
 ```sh
-git clone -b develop https://github.com/davidaugusto89/sistema-noticias.git sistema-noticias
-cd sistema-noticias
+git clone -b develop https://github.com/davidaugusto89/forseti-code-challenge.git forseti-code-challenge
+cd forseti-code-challenge
 composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate
 ```
+## Guia de Executar
+
+Para inciar o servidor após instalar, execute o comando:
+
+```php artisan serve
+
+URL para acesso:
+
+```http://127.0.0.1:8000/noticias
