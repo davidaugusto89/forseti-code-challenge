@@ -35,7 +35,7 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate
 ```
-## Guia de Executar
+## Guia para Acessar o Sistema
 
 Para inciar o servidor após instalar, execute o comando:
 
