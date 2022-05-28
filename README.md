@@ -40,7 +40,9 @@ php artisan migrate
 Para inciar o servidor após instalar, execute o comando:
 
 ```php artisan serve
+```
 
 URL para acesso:
 
 ```http://127.0.0.1:8000/noticias
+```
