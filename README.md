@@ -38,13 +38,14 @@ php artisan key:generate
 php artisan migrate
 ```
 ## Guia para Testes
-
 Para inciar o servidor após instalar, execute o comando:
 
 ```sh
 php artisan serve
 ```
 ### Página Inicial (Home)
+![Página Inicial](https://raw.githubusercontent.com/davidaugusto89/forseti-code-challenge/main/public/images/print_pagina_inicial.png)
+
 Nesta página são listadas as últimas 5 notícias importadas para o banco de dados.
 
 URL para acesso:
@@ -54,6 +55,8 @@ http://127.0.0.1:8000/noticias
 ```
 
 ### Página Importar Notícias
+![Página Importar Notícias](https://raw.githubusercontent.com/davidaugusto89/forseti-code-challenge/main/public/images/print_pagina_importar.png)
+
 Nesta página são importadas as notícias para o banco de dados, mostrando: 
 - Total de Notícias => quantidade total de notícias encontradas
 - Novas Notícias => quantidade total de notícias que foram importadas no banco de dados
