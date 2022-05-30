@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('noticias', function (Blueprint $table) {
             $table->id();
             $table->text('manchete');
-            $table->string('link');
+            $table->text('link');
             $table->date('data');
             $table->time('hora');
             $table->timestamps();

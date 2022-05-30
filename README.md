@@ -30,7 +30,7 @@ Nome do banco de dados = 'forseti-code-challenge'
 Para instalar a aplicação deve ser executados os seguintes comandos no terminal.
 
 ```sh
-git clone -b develop https://github.com/davidaugusto89/forseti-code-challenge.git forseti-code-challenge
+git clone -b main https://github.com/davidaugusto89/forseti-code-challenge.git forseti-code-challenge
 cd forseti-code-challenge
 composer install
 cp .env.example .env
